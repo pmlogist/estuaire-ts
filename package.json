@@ -1,0 +1,26 @@
+{
+  "name": "@hnktt/estuaire",
+  "version": "0.1.1",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --cls src/index.ts",
+    "test": "jest --coverage --runInBand --testTimeout=60000",
+    "test:watch": "jest --verbose --watchAll"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.6"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "@types/node-fetch": "^2.5.12",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "jest-serial-runner": "^1.1.0",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
